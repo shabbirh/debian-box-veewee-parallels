@@ -6,7 +6,7 @@ Veewee::Session.declare({
   :hostiocache => 'off',
   :os_type_id => 'Ubuntu_64',
   :iso_file => "ubuntu-12.04.3-server-amd64.iso",
-  :iso_src => "http://releases.ubuntu.com/12.04/ubuntu-12.04.3-server-amd64.iso",
+  :iso_src => "http://releases.ubuntu.com/12.04.4/ubuntu-12.04.4-server-amd64.iso",
   :iso_md5 => '2cbe868812a871242cdcdd8f2fd6feb9',
   :iso_download_timeout => "1000",
   :boot_wait => "4",
