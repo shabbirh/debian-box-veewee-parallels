@@ -9,7 +9,7 @@
 ```
 vagrant plugin install vagrant-parallels
 gem install veewee
-bundle exec veewee parallels define 'debian-wheezy' 'https://github.com/shabbirh/debian-box-veewee-parallels/tree/master/definitions/parallels-debian-7.3-amd64-clean'
+bundle exec veewee parallels define 'debian-wheezy' 'https://github.com/shabbirh/debian-box-veewee-parallels.git/definitions/parallels-debian-7.3-amd64'
 bundle exec veewee parallels build 'debian75-wheezy'  --workdir=.
 bundle exec veewee parallels export 'debian75-wheezy' --workdir=.
 ```
