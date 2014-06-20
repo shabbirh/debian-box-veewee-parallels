@@ -16,7 +16,7 @@ Now you have a vagrant parallels box.
 To import it into vagrant type:
 
 ```
-vagrant box add 'ubuntu' './debian73.box'
+vagrant box add 'debian' './debian73.box'
 ```
 
 To use it:
