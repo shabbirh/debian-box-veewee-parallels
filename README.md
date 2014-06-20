@@ -8,7 +8,10 @@
 
 ```
 vagrant plugin install vagrant-parallels
-TODO
+sudo gem install veewee
+bundle exec veewee parallels define 'debian-wheezy' 'https://github.com/shabbirh/debian-box-veewee-parallels/tree/master/definitions/parallels-debian-7.3-amd64-clean'
+bundle exec veewee parallels build 'debian75-wheezy'  --workdir=.
+bundle exec veewee parallels export 'debian75-wheezy' --workdir=.
 ```
 
 Now you have a vagrant parallels box.
@@ -16,7 +19,7 @@ Now you have a vagrant parallels box.
 To import it into vagrant type:
 
 ```
-vagrant box add 'debian' './debian73.box'
+vagrant box add 'debian75' './debian75-wheezy.box'
 ```
 
 To use it:
