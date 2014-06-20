@@ -6,8 +6,8 @@ Veewee::Session.declare({
   :hostiocache => 'off',
   :os_type_id => 'debian-73',
   :iso_file => "debian-7.3.0-amd64-netinst.iso",
-  :iso_src => "http://www.mirrorservice.org/sites/cdimage.debian.org/debian-cd/7.3.0/amd64/iso-cd/debian-7.3.0-amd64-netinst.iso",
-  :iso_md5 => '72473e8a5e65b61acc7efde90d9f71d1',
+  :iso_src => "http://cdimage.debian.org/debian-cd/7.5.0/amd64/iso-cd/debian-7.5.0-amd64-netinst.iso",
+  :iso_md5 => '8fdb6715228ea90faba58cb84644d296',
   :iso_download_timeout => "1000",
   :boot_wait => "4",
   :boot_cmd_sequence => [
